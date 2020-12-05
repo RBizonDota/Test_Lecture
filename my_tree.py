@@ -62,5 +62,6 @@ def print_dir(path='.', prefix=''):
     # Возвращаю ответ в виде строки    
     return str_to_return
 
-res = print_dir(input())
-print(res)
+if __name__=="__main__":
+    res = print_dir(input())
+    print(res)
