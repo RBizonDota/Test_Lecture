@@ -9,6 +9,7 @@ LAST_LINE = '└── '
 FULL_SKIP = '    '
 DIR_SUFFIX = ' (d)'
 
+string_to_merge = "alala"
 # Функция вывода директории
 def print_dir(path='.', prefix=''):
     # path - путь до директории     
