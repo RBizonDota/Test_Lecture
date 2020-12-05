@@ -63,12 +63,6 @@ def print_dir(path='.', prefix=''):
     # Возвращаю ответ в виде строки    
     return str_to_return
 
-<<<<<<< HEAD
-res = print_dir(input())
-string_to_merge = "alala"
-print(res)
-=======
 if __name__=="__main__":
     res = print_dir(input())
     print(res)
->>>>>>> dev
