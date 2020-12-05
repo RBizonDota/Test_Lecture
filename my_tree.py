@@ -64,4 +64,5 @@ def print_dir(path='.', prefix=''):
     return str_to_return
 
 res = print_dir(input())
+string_to_merge = "alala"
 print(res)
